@@ -1,0 +1,87 @@
+.chess-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 32px;
+    color: rgba(0,0,0,0);
+    font-weight: bold;     
+}
+.field-white {
+    width: 70px;
+    height: 70px;
+    background: #f0d9b5;  
+}
+
+.field-black {
+    width: 70px;
+    height: 70px;
+    background: #b58863;
+}
+
+.has-queen {
+    display: none;
+    background-image: url('//i.imgur.com/QLjFTWH.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.has-horse {
+    display: none;
+    background-image: url('../images/horse.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.visited {
+    display: none;
+    background-image: url('../images/horse2.png');
+    background-position: 50% 50%;
+    color: rgba(20,20,20,1);
+    background-repeat: no-repeat;
+}
+
+.num-visible {
+    color: rgba(20,20,20,1);
+}
+
+.lol {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr {
+    width: 50%;
+}
+
+[class^="field"]:hover {
+    cursor: pointer;
+}
+
+.danger {
+    background-image: url('//i.imgur.com/6PDBdQW.png');
+    background-repeat: repeat;
+}
+
+.option {
+    background-image: url('../images/option.png');
+    background-repeat: repeat;
+}
+
+.box-border {
+    border: 1px solid #E4845A;
+}
+
+#footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 7px;
+    border-top: 1px solid #bbb;
+}
+
+#loader {
+    display: none;
+}
